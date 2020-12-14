@@ -1,0 +1,12 @@
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\bin\Debug\net5.0\NetCoreWebApp.Domain.deps.json
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\bin\Debug\net5.0\ref\NetCoreWebApp.Domain.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\bin\Debug\net5.0\NetCoreWebApp.Domain.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.csprojAssemblyReference.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.AssemblyInfoInputs.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.AssemblyInfo.cs
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\ref\NetCoreWebApp.Domain.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Domain\obj\Debug\net5.0\NetCoreWebApp.Domain.pdb

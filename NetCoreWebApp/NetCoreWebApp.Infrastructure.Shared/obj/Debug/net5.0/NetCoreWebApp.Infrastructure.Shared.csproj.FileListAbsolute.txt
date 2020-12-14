@@ -1,0 +1,17 @@
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.deps.json
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Shared.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.csprojAssemblyReference.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.AssemblyInfoInputs.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.AssemblyInfo.cs
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Shared.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Application.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Application.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Domain.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.csproj.CopyComplete

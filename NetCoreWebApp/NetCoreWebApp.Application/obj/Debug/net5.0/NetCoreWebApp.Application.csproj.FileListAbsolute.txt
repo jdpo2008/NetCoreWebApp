@@ -1,0 +1,15 @@
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Application.deps.json
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Application.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\ref\NetCoreWebApp.Application.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Application.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Domain.pdb
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.csprojAssemblyReference.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.AssemblyInfoInputs.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.AssemblyInfo.cs
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.csproj.CopyComplete
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\ref\NetCoreWebApp.Application.dll
+C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.pdb
