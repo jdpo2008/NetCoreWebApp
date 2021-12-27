@@ -9,6 +9,6 @@ namespace NetCoreWebApp.Application.DTOs.User
 {
     public class ImageRequest
     {
-        public IFormFile Files { get; set; }
+        public IFormFile File { get; set; }
     }
 }

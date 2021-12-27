@@ -17,7 +17,7 @@ namespace NetCoreWebApp.Application.Wrappers
         }
         public Response(string message)
         {
-            Succeeded = false;
+            Succeeded = true;
             Message = message;
         }
         public bool Succeeded { get; set; }

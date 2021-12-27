@@ -26,7 +26,7 @@ namespace NetCoreWebApp.Infrastructure.Persistence
 
         #region Public Methods
 
-        public virtual async Task<T> GetByIdAsync(int id)
+        public virtual async Task<T> GetByIdAsync(Guid id)
         {
             return await Context.Set<T>().FindAsync(id);
         }
@@ -34,27 +34,27 @@ namespace NetCoreWebApp.Infrastructure.Persistence
         public Task<T> FirstOrDefault(Expression<Func<T, bool>> predicate)
             => Context.Set<T>().FirstOrDefaultAsync(predicate);
 
-        public async Task<T> Add(T entity)
+        public async Task<T> AddAsync(T entity)
         {
             await Context.Set<T>().AddAsync(entity);
             await Context.SaveChangesAsync();
             return entity;
         }
 
-        public Task Update(T entity)
+        public Task UpdateAsync(T entity)
         {
             // In case AsNoTracking is used
             Context.Entry(entity).State = EntityState.Modified;
             return Context.SaveChangesAsync();
         }
 
-        public Task Remove(T entity)
+        public Task RemoveAsync(T entity)
         {
             Context.Set<T>().Remove(entity);
             return Context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await Context.Set<T>().ToListAsync();
         }

@@ -9,6 +9,7 @@ using NetCoreWebApp.Application.Exceptions;
 using NetCoreWebApp.Application.Interfaces;
 using NetCoreWebApp.Application.Wrappers;
 using NetCoreWebApp.Domain.Settings;
+using NetCoreWebApp.Infrastructure.Identity.Helpers;
 using NetCoreWebApp.Infrastructure.Identity.Models;
 using System;
 using System.Collections.Generic;
@@ -124,7 +125,7 @@ namespace NetCoreWebApp.Infrastructure.Identity.Services
                 roleClaims.Add(new Claim("roles", roles[i]));
             }
 
-            //string ipAddress = IpHelper.GetIpAddress();
+            string ipAddress = IpHelper.GetIpAddress();
 
             var claims = new[]
             {
@@ -132,7 +133,7 @@ namespace NetCoreWebApp.Infrastructure.Identity.Services
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim("uid", user.Id.ToString()),
-                //new Claim("ip", ipAddress)
+                new Claim("ip", ipAddress)
             }
             .Union(userClaims)
             .Union(roleClaims);

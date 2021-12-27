@@ -1,3 +1,4 @@
+using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +34,9 @@ namespace NetCoreWebApp.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+           
+
             services.AddApplicationLayer();
             services.AddIdentityInfrastructure(Configuration);
             services.AddPersistenceInfrastructure(Configuration);
@@ -42,6 +46,11 @@ namespace NetCoreWebApp.WebApi
             services.AddApiVersioningExtension();
             services.AddHealthChecks();
             services.AddScoped<IAuthenticatedUserService, AuthenticatedUserService>();
+
+            services.AddScoped(_ => {
+                return new BlobServiceClient(Configuration.GetConnectionString("AzureBlobStorage"));
+            });
+
             services.AddTransient<IImageServices, ImageService>();
 
             services.AddCors(options =>

@@ -2,7 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NetCoreWebApp.Application.Interfaces;
+using NetCoreWebApp.Application.Interfaces.Repositories;
 using NetCoreWebApp.Infrastructure.Persistence.Contexts;
+using NetCoreWebApp.Infrastructure.Persistence.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +31,8 @@ namespace NetCoreWebApp.Infrastructure.Persistence
             }
             #region Repositories
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
-            //services.AddTransient<IProductRepositoryAsync, ProductRepositoryAsync>();
+            services.AddTransient<IProductRepositoryAsync, ProductRepositoryAsync>();
+            services.AddTransient<ICategoryRepositoryAsync, CategoryRepositoryAsync>();
             #endregion
         }
     }

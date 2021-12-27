@@ -12,6 +12,8 @@ namespace NetCoreWebApp.WebApi.Extensions
     {
         public static void AddSwaggerExtension(this IServiceCollection services)
         {
+           
+
             services.AddSwaggerGen(c =>
             {
                 //c.IncludeXmlComments(string.Format(@"{0}\CleanArchitecture.WebApi1.WebApi.xml", System.AppDomain.CurrentDomain.BaseDirectory));

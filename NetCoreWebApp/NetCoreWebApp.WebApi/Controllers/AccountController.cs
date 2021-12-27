@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using NetCoreWebApp.Application.DTOs.Account;
 using NetCoreWebApp.Application.Interfaces;
 using System;
@@ -13,13 +14,16 @@ namespace NetCoreWebApp.WebApi.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAccountService _accountService;
-        public AccountController(IAccountService accountService)
+        private static ILogger<AccountController> _logger;
+        public AccountController(IAccountService accountService, ILogger<AccountController> logger)
         {
             _accountService = accountService;
+            _logger = logger;
         }
         [HttpPost("authenticate")]
         public async Task<IActionResult> AuthenticateAsync(AuthenticationRequest request)
         {
+            _logger.LogInformation("Sesion init!", request.Email);
             return Ok(await _accountService.AuthenticateAsync(request, GenerateIPAddress()));
         }
         [HttpPost("register")]

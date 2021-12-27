@@ -9,12 +9,12 @@ namespace NetCoreWebApp.Application.Interfaces
 {
     public interface IGenericRepositoryAsync<T> where T : BaseEntity
     {
-        Task<T> GetByIdAsync(int id);
+        Task<T> GetByIdAsync(Guid id);
         Task<T> FirstOrDefault(Expression<Func<T, bool>> predicate);
-        Task<T> Add(T entity);
-        Task Update(T entity);
-        Task Remove(T entity);
-        Task<IEnumerable<T>> GetAll();
+        Task<T> AddAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task RemoveAsync(T entity);
+        Task<IEnumerable<T>> GetAllAsync();
         Task<IEnumerable<T>> GetAllFiltered(Expression<Func<T, bool>> predicate);
         Task<int> CountAll();
         Task<int> CountAllFiltered(Expression<Func<T, bool>> predicate);
