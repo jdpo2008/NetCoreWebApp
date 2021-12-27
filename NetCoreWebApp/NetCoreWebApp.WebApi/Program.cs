@@ -5,8 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using NetCoreWebApp.Infrastructure.Identity.Contexts;
-using NetCoreWebApp.Infrastructure.Identity.Models;
 using NetCoreWebApp.Infrastructure.Persistence.Contexts;
 using Serilog;
 using System;
@@ -45,32 +43,29 @@ namespace NetCoreWebApp.WebApi
                     var isDevelopment = services.GetRequiredService<IWebHostEnvironment>().IsDevelopment();
 
                     using var appContext = services.GetRequiredService<ApplicationDbContext>();
-                    using var identityC0otext = services.GetRequiredService<IdentityContext>();
 
                     if (isDevelopment)
                     {
-                        await identityC0otext.Database.EnsureCreatedAsync();
                         await appContext.Database.EnsureCreatedAsync();
                         nlog.Debug("Databases created");
                     }
                     else
                     {
-                        await identityC0otext.Database.MigrateAsync();
                         await appContext.Database.MigrateAsync();
                         nlog.Debug("Databases Migrated");
                     }
 
-                    if (isDevelopment)
-                    {
-                        var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-                        var roleManager = services.GetRequiredService<RoleManager<ApplicationRole>>();
+                    //if (isDevelopment)
+                    //{
+                    //    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+                    //    var roleManager = services.GetRequiredService<RoleManager<ApplicationRole>>();
 
-                        await Infrastructure.Identity.Seeds.DefaultRoles.SeedAsync(userManager, roleManager);
-                        await Infrastructure.Identity.Seeds.DefaultSuperAdmin.SeedAsync(userManager, roleManager);
-                        await Infrastructure.Identity.Seeds.DefaultBasicUser.SeedAsync(userManager, roleManager);
-                        nlog.Debug("Finished Seeding Default Data");
-                        nlog.Debug("Application Starting");
-                    }
+                    //    await Infrastructure.Identity.Seeds.DefaultRoles.SeedAsync(userManager, roleManager);
+                    //    await Infrastructure.Identity.Seeds.DefaultSuperAdmin.SeedAsync(userManager, roleManager);
+                    //    await Infrastructure.Identity.Seeds.DefaultBasicUser.SeedAsync(userManager, roleManager);
+                    //    nlog.Debug("Finished Seeding Default Data");
+                    //    nlog.Debug("Application Starting");
+                    //}
                      
                 }
                 catch (Exception ex)

@@ -10,7 +10,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using NetCoreWebApp.Application;
 using NetCoreWebApp.Application.Interfaces;
-using NetCoreWebApp.Infrastructure.Identity;
 using NetCoreWebApp.Infrastructure.Persistence;
 using NetCoreWebApp.Infrastructure.Shared;
 using NetCoreWebApp.WebApi.Extensions;
@@ -35,10 +34,8 @@ namespace NetCoreWebApp.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
 
-           
-
             services.AddApplicationLayer();
-            services.AddIdentityInfrastructure(Configuration);
+            //services.AddIdentityInfrastructure(Configuration);
             services.AddPersistenceInfrastructure(Configuration);
             services.AddSharedInfrastructure(Configuration);
             services.AddSwaggerExtension();
@@ -57,10 +54,7 @@ namespace NetCoreWebApp.WebApi
             {
                 options.AddPolicy(name: "CorsPolicy", builder =>
                                   {
-                                      builder.WithOrigins("http://example.com",
-                                                          "http://www.contoso.com")
-                                                          .AllowAnyHeader()
-                                                          .AllowAnyMethod();
+                                      builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
                                   });
             });
         }

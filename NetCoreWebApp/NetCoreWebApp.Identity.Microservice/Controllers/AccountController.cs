@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using NetCoreWebApp.Application.DTOs.Account;
 using NetCoreWebApp.Application.Interfaces;
 using System;
@@ -7,23 +6,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreWebApp.WebApi.Controllers
+namespace NetCoreWebApp.Identity.Microservice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
         private readonly IAccountService _accountService;
-        private static ILogger<AccountController> _logger;
-        public AccountController(IAccountService accountService, ILogger<AccountController> logger)
+        public AccountController(IAccountService accountService)
         {
             _accountService = accountService;
-            _logger = logger;
         }
         [HttpPost("authenticate")]
         public async Task<IActionResult> AuthenticateAsync(AuthenticationRequest request)
         {
-            _logger.LogInformation("Sesion init!", request.Email);
             return Ok(await _accountService.AuthenticateAsync(request, GenerateIPAddress()));
         }
         [HttpPost("register")]
@@ -47,8 +43,12 @@ namespace NetCoreWebApp.WebApi.Controllers
         [HttpPost("reset-password")]
         public async Task<IActionResult> ResetPassword(ResetPasswordRequest model)
         {
-
             return Ok(await _accountService.ResetPassword(model));
+        }
+        [HttpPost("logout")]
+        public async Task<IActionResult> LogoutAsync()
+        {
+            return Ok(await _accountService.LogoutAsync());
         }
         private string GenerateIPAddress()
         {
@@ -56,6 +56,11 @@ namespace NetCoreWebApp.WebApi.Controllers
                 return Request.Headers["X-Forwarded-For"];
             else
                 return HttpContext.Connection.RemoteIpAddress.MapToIPv4().ToString();
+        }
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshTokenAsync(RefreshToken refreshToken)
+        {
+            return Ok(await _accountService.RefreshTokenAsync(refreshToken, GenerateIPAddress()));
         }
     }
 }

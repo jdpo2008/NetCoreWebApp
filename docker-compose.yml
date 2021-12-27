@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  netcorewebapp.identity.microservice:
+    image: ${DOCKER_REGISTRY-}netcorewebappidentitymicroservice
+    build:
+      context: .
+      dockerfile: NetCoreWebApp/NetCoreWebApp.Identity.Microservice/Dockerfile
+
+  netcorewebapp.webapi:
+    image: ${DOCKER_REGISTRY-}netcorewebappwebapi
+    build:
+      context: .
+      dockerfile: NetCoreWebApp/NetCoreWebApp.WebApi/Dockerfile
+

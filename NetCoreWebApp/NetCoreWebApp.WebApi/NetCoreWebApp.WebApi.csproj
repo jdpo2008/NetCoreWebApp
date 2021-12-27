@@ -5,6 +5,7 @@
     <UserSecretsId>f0c826bf-58fd-4dcf-84b8-0b17addda412</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +32,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NetCoreWebApp.Application\NetCoreWebApp.Application.csproj" />
-    <ProjectReference Include="..\NetCoreWebApp.Infrastructure.Identity\NetCoreWebApp.Infrastructure.Identity.csproj" />
     <ProjectReference Include="..\NetCoreWebApp.Infrastructure.Persistence\NetCoreWebApp.Infrastructure.Persistence.csproj" />
     <ProjectReference Include="..\NetCoreWebApp.Infrastructure.Shared\NetCoreWebApp.Infrastructure.Shared.csproj" />
   </ItemGroup>

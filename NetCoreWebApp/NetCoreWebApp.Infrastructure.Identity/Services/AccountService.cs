@@ -113,6 +113,13 @@ namespace NetCoreWebApp.Infrastructure.Identity.Services
             }
         }
 
+        public async Task<Response<string>> LogoutAsync()
+        {
+            await _signInManager.SignOutAsync();
+
+            return new Response<string>(message: "Is successfull logout");
+        }
+
         private async Task<JwtSecurityToken> GenerateJWToken(ApplicationUser user)
         {
             var userClaims = await _userManager.GetClaimsAsync(user);
@@ -229,6 +236,36 @@ namespace NetCoreWebApp.Infrastructure.Identity.Services
             {
                 throw new ApiException($"Error occured while reseting the password.");
             }
+        }
+
+        public async Task<Response<AuthenticationResponse>> RefreshTokenAsync(RefreshToken request, string ipAddress)
+        {
+            AuthenticationResponse response = new AuthenticationResponse();
+
+            var handler = new JwtSecurityTokenHandler();
+
+            var claims = handler.ReadJwtToken(request.Token);
+
+            string uid = claims.Payload["uid"].ToString();
+
+            var user = await _userManager.FindByIdAsync(uid);
+
+            var refreshToken = GenerateRefreshToken(ipAddress);
+            var rolesList = await _userManager.GetRolesAsync(user).ConfigureAwait(false);
+
+            JwtSecurityToken jwtSecurityToken = await GenerateJWToken(user);
+           
+
+            response.Id = user.Id;
+            response.Email = user.Email;
+            response.UserName = user.UserName;
+            response.JWToken = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
+            response.RefreshToken = refreshToken.Token;
+            response.Roles = rolesList.ToList();
+            response.IsVerified = user.EmailConfirmed;
+
+            return new Response<AuthenticationResponse>(response, $"Authenticated {user.UserName}");
+
         }
     }
 }

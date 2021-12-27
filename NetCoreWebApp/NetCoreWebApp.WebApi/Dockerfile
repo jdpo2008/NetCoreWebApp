@@ -10,7 +10,6 @@ WORKDIR /src
 COPY ["NetCoreWebApp/NetCoreWebApp.WebApi/NetCoreWebApp.WebApi.csproj", "NetCoreWebApp/NetCoreWebApp.WebApi/"]
 COPY ["NetCoreWebApp/NetCoreWebApp.Application/NetCoreWebApp.Application.csproj", "NetCoreWebApp/NetCoreWebApp.Application/"]
 COPY ["NetCoreWebApp/NetCoreWebApp.Domain/NetCoreWebApp.Domain.csproj", "NetCoreWebApp/NetCoreWebApp.Domain/"]
-COPY ["NetCoreWebApp/NetCoreWebApp.Infrastructure.Identity/NetCoreWebApp.Infrastructure.Identity.csproj", "NetCoreWebApp/NetCoreWebApp.Infrastructure.Identity/"]
 COPY ["NetCoreWebApp/NetCoreWebApp.Infrastructure.Persistence/NetCoreWebApp.Infrastructure.Persistence.csproj", "NetCoreWebApp/NetCoreWebApp.Infrastructure.Persistence/"]
 COPY ["NetCoreWebApp/NetCoreWebApp.Infrastructure.Shared/NetCoreWebApp.Infrastructure.Shared.csproj", "NetCoreWebApp/NetCoreWebApp.Infrastructure.Shared/"]
 RUN dotnet restore "NetCoreWebApp/NetCoreWebApp.WebApi/NetCoreWebApp.WebApi.csproj"

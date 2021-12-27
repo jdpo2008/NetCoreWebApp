@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "7i3lOhZBg7ICHyUsPYV4Z8Lzq9p4WI6OP06Aaww/yL6pwHDUAoJL644eW9zbzE8yFfBPqqvG4PubxIJGZHMr1g==",
+  "dgSpecHash": "0srm5bAn/Ei2QFqjr+3LGnGGfCbLxmZiJJhkYWiYDWHLY6JFQNX1qBUI1Eh+EHwycNkrYKQYDi/ExDttmwgK9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\jdpo2008\\NetCoreWebApp\\NetCoreWebApp\\NetCoreWebApp.WebApi\\NetCoreWebApp.WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\ardalis.efcore.extensions\\1.1.0\\ardalis.efcore.extensions.1.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
@@ -22,7 +21,6 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.0\\microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.0\\microsoft.aspnetcore.identity.ui.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.2.0\\microsoft.aspnetcore.mvc.versioning.4.2.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
@@ -70,7 +68,7 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\mimekit\\2.10.0\\mimekit.2.10.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\nlog\\4.7.13\\nlog.4.7.13.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512",
@@ -93,6 +91,7 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
@@ -121,6 +120,7 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.runtime.handles\\4.0.1\\system.runtime.handles.4.0.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.runtime.interopservices\\4.1.0\\system.runtime.interopservices.4.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.0.0\\system.runtime.interopservices.runtimeinformation.4.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.runtime.serialization.primitives\\4.1.1\\system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
@@ -129,12 +129,16 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }
