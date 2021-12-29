@@ -38,3 +38,5 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Persistence.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.genruntimeconfig.cache
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb

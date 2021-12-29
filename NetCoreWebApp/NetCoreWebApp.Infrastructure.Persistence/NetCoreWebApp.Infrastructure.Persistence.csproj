@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NetCoreWebApp.Application\NetCoreWebApp.Application.csproj" />
     <ProjectReference Include="..\NetCoreWebApp.Domain\NetCoreWebApp.Domain.csproj" />
+    <ProjectReference Include="..\NetCoreWebApp.Infrastructure.Shared\NetCoreWebApp.Infrastructure.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

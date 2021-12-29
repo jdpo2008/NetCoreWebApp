@@ -23,13 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Infrastructure.Shared", "NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\NetCoreWebApp.Infrastructure.Shared.csproj", "{BD397731-DE54-4650-9828-96169529F7A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Identity.Microservice", "NetCoreWebApp\NetCoreWebApp.Identity.Microservice\NetCoreWebApp.Identity.Microservice.csproj", "{3D7EBC9D-873F-472A-B622-E48ADF44BF91}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApp.Product.Microservice", "NetCoreWebApp.Product.Microservice\NetCoreWebApp.Product.Microservice.csproj", "{C1C40711-F41F-4A3D-8719-A561FD1913F3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApp.Category.Microservice", "NetCoreWebApp.Category.Microservice\NetCoreWebApp.Category.Microservice.csproj", "{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApp.WebApi", "NetCoreWebApp\NetCoreWebApp.Api\NetCoreWebApp.WebApi.csproj", "{D2FC82C1-9A1C-470C-BAC8-A521E06B96C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,22 +51,10 @@ Global
 		{BD397731-DE54-4650-9828-96169529F7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD397731-DE54-4650-9828-96169529F7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD397731-DE54-4650-9828-96169529F7A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D7EBC9D-873F-472A-B622-E48ADF44BF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D7EBC9D-873F-472A-B622-E48ADF44BF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D7EBC9D-873F-472A-B622-E48ADF44BF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D7EBC9D-873F-472A-B622-E48ADF44BF91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FC82C1-9A1C-470C-BAC8-A521E06B96C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FC82C1-9A1C-470C-BAC8-A521E06B96C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FC82C1-9A1C-470C-BAC8-A521E06B96C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FC82C1-9A1C-470C-BAC8-A521E06B96C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,9 +68,7 @@ Global
 		{0749C052-49F9-4C33-AC61-B210A3EE8351} = {5DE6581C-31A2-4EDE-8A19-ED57B688FE1B}
 		{14F2BD5C-8566-4BEC-B387-944586B82816} = {5DE6581C-31A2-4EDE-8A19-ED57B688FE1B}
 		{BD397731-DE54-4650-9828-96169529F7A5} = {5DE6581C-31A2-4EDE-8A19-ED57B688FE1B}
-		{3D7EBC9D-873F-472A-B622-E48ADF44BF91} = {AA249CC0-063B-4899-B02B-271D93037533}
-		{C1C40711-F41F-4A3D-8719-A561FD1913F3} = {AA249CC0-063B-4899-B02B-271D93037533}
-		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE} = {AA249CC0-063B-4899-B02B-271D93037533}
+		{D2FC82C1-9A1C-470C-BAC8-A521E06B96C7} = {AA249CC0-063B-4899-B02B-271D93037533}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7588FAA0-2B6E-4A02-9B71-D1C3097AEBCB}
