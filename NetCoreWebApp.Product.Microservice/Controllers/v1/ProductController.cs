@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreWebApp.WebApi.Controllers.v1
+namespace NetCoreWebApp.Product.Microservice.Controllers.v1
 {
     [ApiVersion("1.0")]
     public class ProductController : BaseApiController

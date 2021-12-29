@@ -20,7 +20,7 @@ namespace NetCoreWebApp.Identity.Microservice.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Clean Architecture - NetCoreWebApp Identity Micro Service",
+                    Title = "Clean Architecture - Identity Micro Service",
                     Description = "This Api will be responsible for overall data distribution and authorization.",
                     Contact = new OpenApiContact
                     {

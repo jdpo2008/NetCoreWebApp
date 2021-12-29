@@ -3,12 +3,12 @@
     "Docker Compose": {
       "commandName": "DockerCompose",
       "composeLaunchAction": "LaunchBrowser",
-      "composeLaunchServiceName": "netcorewebapp.webapi",
+      "composeLaunchServiceName": "netcorewebapp.identity.microservice",
       "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
       "commandVersion": "1.0",
       "serviceActions": {
         "netcorewebapp.identity.microservice": "StartDebugging",
-        "netcorewebapp.webapi": "StartDebugging"
+        "netcorewebapp.product.microservice": "StartDebugging"
       }
     }
   }

@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4F4F3BB2-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{AA249CC0-063B-4899-B02B-271D93037533}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.WebApi", "NetCoreWebApp\NetCoreWebApp.WebApi\NetCoreWebApp.WebApi.csproj", "{C04ADE72-991D-4B21-A0D8-45C99B31ABE4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Application", "NetCoreWebApp\NetCoreWebApp.Application\NetCoreWebApp.Application.csproj", "{09FE5C0A-8E21-4E83-8087-3F74F648E116}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Domain", "NetCoreWebApp\NetCoreWebApp.Domain\NetCoreWebApp.Domain.csproj", "{F6AAC44A-1E0D-4F3D-BD8D-DEA4361EA1D9}"
@@ -25,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Infrastructure.Shared", "NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\NetCoreWebApp.Infrastructure.Shared.csproj", "{BD397731-DE54-4650-9828-96169529F7A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApp.Identity.Microservice", "NetCoreWebApp\NetCoreWebApp.Identity.Microservice\NetCoreWebApp.Identity.Microservice.csproj", "{3D7EBC9D-873F-472A-B622-E48ADF44BF91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApp.Identity.Microservice", "NetCoreWebApp\NetCoreWebApp.Identity.Microservice\NetCoreWebApp.Identity.Microservice.csproj", "{3D7EBC9D-873F-472A-B622-E48ADF44BF91}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApp.Product.Microservice", "NetCoreWebApp.Product.Microservice\NetCoreWebApp.Product.Microservice.csproj", "{C1C40711-F41F-4A3D-8719-A561FD1913F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWebApp.Category.Microservice", "NetCoreWebApp.Category.Microservice\NetCoreWebApp.Category.Microservice.csproj", "{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C04ADE72-991D-4B21-A0D8-45C99B31ABE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C04ADE72-991D-4B21-A0D8-45C99B31ABE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C04ADE72-991D-4B21-A0D8-45C99B31ABE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C04ADE72-991D-4B21-A0D8-45C99B31ABE4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09FE5C0A-8E21-4E83-8087-3F74F648E116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09FE5C0A-8E21-4E83-8087-3F74F648E116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FE5C0A-8E21-4E83-8087-3F74F648E116}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,6 +65,14 @@ Global
 		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B9E812-D2CD-4CDF-94DB-AEFED2DF7959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C40711-F41F-4A3D-8719-A561FD1913F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,13 +81,14 @@ Global
 		{5DE6581C-31A2-4EDE-8A19-ED57B688FE1B} = {1FD7C45A-06F2-49A7-BF4C-51BB0B891677}
 		{4F4F3BB2-EF82-46ED-A8E9-4F3AED7CD064} = {1FD7C45A-06F2-49A7-BF4C-51BB0B891677}
 		{AA249CC0-063B-4899-B02B-271D93037533} = {1FD7C45A-06F2-49A7-BF4C-51BB0B891677}
-		{C04ADE72-991D-4B21-A0D8-45C99B31ABE4} = {AA249CC0-063B-4899-B02B-271D93037533}
 		{09FE5C0A-8E21-4E83-8087-3F74F648E116} = {4F4F3BB2-EF82-46ED-A8E9-4F3AED7CD064}
 		{F6AAC44A-1E0D-4F3D-BD8D-DEA4361EA1D9} = {4F4F3BB2-EF82-46ED-A8E9-4F3AED7CD064}
 		{0749C052-49F9-4C33-AC61-B210A3EE8351} = {5DE6581C-31A2-4EDE-8A19-ED57B688FE1B}
 		{14F2BD5C-8566-4BEC-B387-944586B82816} = {5DE6581C-31A2-4EDE-8A19-ED57B688FE1B}
 		{BD397731-DE54-4650-9828-96169529F7A5} = {5DE6581C-31A2-4EDE-8A19-ED57B688FE1B}
 		{3D7EBC9D-873F-472A-B622-E48ADF44BF91} = {AA249CC0-063B-4899-B02B-271D93037533}
+		{C1C40711-F41F-4A3D-8719-A561FD1913F3} = {AA249CC0-063B-4899-B02B-271D93037533}
+		{D7A1BAE4-BFB8-43CD-8486-2FACE0F430AE} = {AA249CC0-063B-4899-B02B-271D93037533}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7588FAA0-2B6E-4A02-9B71-D1C3097AEBCB}

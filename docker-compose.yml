@@ -7,9 +7,15 @@ services:
       context: .
       dockerfile: NetCoreWebApp/NetCoreWebApp.Identity.Microservice/Dockerfile
 
-  netcorewebapp.webapi:
-    image: ${DOCKER_REGISTRY-}netcorewebappwebapi
+  netcorewebapp.product.microservice:
+    image: ${DOCKER_REGISTRY-}netcorewebappproductmicroservice
     build:
       context: .
-      dockerfile: NetCoreWebApp/NetCoreWebApp.WebApi/Dockerfile
+      dockerfile: NetCoreWebApp.Product.Microservice/Dockerfile
+
+  netcorewebapp.category.microservice:
+    image: ${DOCKER_REGISTRY-}netcorewebappcategorymicroservice
+    build:
+      context: .
+      dockerfile: NetCoreWebApp.Category.Microservice/Dockerfile
 
