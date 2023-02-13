@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreWebApp.Identity.Microservice.Controllers
+namespace NetCoreWebApp.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

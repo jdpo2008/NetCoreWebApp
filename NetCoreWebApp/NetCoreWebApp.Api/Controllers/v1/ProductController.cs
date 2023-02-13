@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreWebApp.Application.Features.Products.Commands.CreateProduct;
 using NetCoreWebApp.Application.Features.Products.Commands.DeleteProduct;
@@ -13,6 +14,7 @@ using System.Threading.Tasks;
 namespace NetCoreWebApp.WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
+    [Produces("application/json")]
     public class ProductController : BaseApiController
     {
         [HttpGet]
@@ -29,6 +31,8 @@ namespace NetCoreWebApp.WebApi.Controllers.v1
 
         [HttpPost]
         [Authorize]
+        [Consumes("application/json")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<IActionResult> Post(CreateProductCommand command)
         {
             var response = await Mediator.Send(command);
@@ -38,6 +42,9 @@ namespace NetCoreWebApp.WebApi.Controllers.v1
 
         [HttpPut]
         [Authorize]
+        [Consumes("application/json")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Put(Guid id, UpdateProductCommand command)
         {
             if (id != command.Id)
@@ -50,6 +57,8 @@ namespace NetCoreWebApp.WebApi.Controllers.v1
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Delete(Guid id)
         {
             var response = await Mediator.Send(new DeleteProductCommand { Id = id });

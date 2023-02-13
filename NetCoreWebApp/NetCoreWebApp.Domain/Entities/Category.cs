@@ -11,6 +11,10 @@ namespace NetCoreWebApp.Domain.Entities
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        //public Guid ImageId { get; set; }
+
+        //FK 
+        //public virtual Image Image { get; set; }
 
     }
 }

@@ -33,6 +33,7 @@ namespace NetCoreWebApp.Infrastructure.Persistence
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
             services.AddTransient<IProductRepositoryAsync, ProductRepositoryAsync>();
             services.AddTransient<ICategoryRepositoryAsync, CategoryRepositoryAsync>();
+            services.AddTransient<ISubCategoryRepositoryAsync, SubCategoryRepositoryAsync>();
             #endregion
         }
     }

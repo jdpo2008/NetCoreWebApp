@@ -21,12 +21,12 @@ namespace NetCoreWebApp.Infrastructure.Persistence.Repositories
 
         public Task<List<Product>> GetAll()
         {
-            return _products.Include(p => p.Category).Include(p => p.Marca).ToListAsync();
+            return _products.Include(p => p.Category).Include(p => p.SubCategory).ToListAsync();
         }
 
         public Task<Product> GetById(Guid id)
         {
-            return _products.Include(p => p.Category).Include(p => p.Marca).FirstOrDefaultAsync(p => p.Id == id);
+            return _products.Include(p => p.Category).Include(p => p.SubCategory).FirstOrDefaultAsync(p => p.Id == id);
         }
     }
 }

@@ -26,8 +26,9 @@ namespace NetCoreWebApp.Infrastructure.Persistence.Contexts
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Marca> Marcas { get; set; }
-        public DbSet<Image> Images { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
+        //public DbSet<Marca> Marcas { get; set; }
+        //public DbSet<Image> Images { get; set; }
         public DbSet<Log> Logs { get; set; }
 
 

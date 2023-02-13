@@ -11,9 +11,10 @@ namespace NetCoreWebApp.Domain.Entities
     {
         public string ImageUrl { get; set; }
         public bool IsMain { get; set; }
-        public Guid ProductId { get; set; }
 
         public virtual Product Product { get; set; }
+
+        public virtual Category Category { get; set; }
 
         public Image(string imageUrl, bool isMain)
         {

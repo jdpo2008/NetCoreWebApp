@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using NetCoreWebApp.Application.Features.Categories.Commands.CreateCategory;
 using NetCoreWebApp.Application.Interfaces.Repositories;
 using NetCoreWebApp.Application.Wrappers;
 using NetCoreWebApp.Domain.Entities;

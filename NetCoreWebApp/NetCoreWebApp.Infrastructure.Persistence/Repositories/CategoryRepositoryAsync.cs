@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace NetCoreWebApp.Infrastructure.Persistence.Repositories
 {
-    public class CategoryRepositoryAsync : GenericRepositoryAsync<Category>, ICategoryRepositoryAsync
+    public class SubCategoryRepositoryAsync : GenericRepositoryAsync<SubCategory>, ISubCategoryRepositoryAsync
     {
-        private readonly DbSet<Category> _categories;
+        private readonly DbSet<SubCategory> _subcategories;
 
-        public CategoryRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
+        public SubCategoryRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
         {
-            _categories = dbContext.Set<Category>();
+            _subcategories = dbContext.Set<SubCategory>();
         }
     }
 }

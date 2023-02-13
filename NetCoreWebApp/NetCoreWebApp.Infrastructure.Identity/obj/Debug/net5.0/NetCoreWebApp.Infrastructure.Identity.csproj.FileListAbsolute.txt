@@ -22,7 +22,6 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.runtimeconfig.json
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.runtimeconfig.dev.json
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Identity.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\NetCoreWebApp.Application.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
@@ -35,6 +34,7 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.csproj.CopyComplete
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Identity.dll
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\refint\NetCoreWebApp.Infrastructure.Identity.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Identity.genruntimeconfig.cache
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Identity\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Identity.dll

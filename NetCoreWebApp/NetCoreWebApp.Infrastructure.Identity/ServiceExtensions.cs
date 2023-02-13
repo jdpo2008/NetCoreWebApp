@@ -74,6 +74,7 @@ namespace NetCoreWebApp.Infrastructure.Identity
             services.AddTransient<IAccountService, AccountService>();
             services.AddTransient<IUserService, UserService>();
             #endregion
+
             services.Configure<JWTSettings>(configuration.GetSection("JWTSettings"));
             services.AddAuthentication(options =>
             {

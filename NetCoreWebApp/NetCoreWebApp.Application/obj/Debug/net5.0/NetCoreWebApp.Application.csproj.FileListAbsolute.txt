@@ -15,7 +15,6 @@ C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Applic
 C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Application.deps.json
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Application.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\ref\NetCoreWebApp.Application.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Application.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\bin\Debug\net5.0\NetCoreWebApp.Domain.pdb
@@ -26,5 +25,6 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.csproj.CopyComplete
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\ref\NetCoreWebApp.Application.dll
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\refint\NetCoreWebApp.Application.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\NetCoreWebApp.Application.pdb
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Application\obj\Debug\net5.0\ref\NetCoreWebApp.Application.dll

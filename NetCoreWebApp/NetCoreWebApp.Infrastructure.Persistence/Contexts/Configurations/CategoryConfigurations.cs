@@ -19,7 +19,10 @@ namespace NetCoreWebApp.Infrastructure.Persistence.Contexts.Configurations
             // Limit the size of columns to use efficient database types
             builder.Property(p => p.Name).IsRequired().HasMaxLength(25);
             builder.Property(p => p.Description).IsRequired().HasMaxLength(250);
-            
+
+            // Each Category can have one Image
+            //builder.HasOne(c => c.Image).WithMany().HasForeignKey(p => p.ImageId).IsRequired();
+
         }
     }
 }

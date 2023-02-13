@@ -17,7 +17,6 @@ C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infras
 C:\Users\jperezoch\source\repos\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.csproj.CopyComplete
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.deps.json
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Shared.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Application.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
@@ -30,5 +29,6 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.csproj.CopyComplete
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Shared.dll
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\refint\NetCoreWebApp.Infrastructure.Shared.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Shared\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Shared.dll

@@ -22,12 +22,13 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.runtimeconfig.json
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.runtimeconfig.dev.json
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Persistence.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Application.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Domain.dll
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Application.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Domain.pdb
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.csproj.AssemblyReference.cache
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.AssemblyInfoInputs.cache
@@ -35,8 +36,7 @@ C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.csproj.CopyComplete
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Persistence.dll
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\refint\NetCoreWebApp.Infrastructure.Persistence.dll
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.pdb
 C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\NetCoreWebApp.Infrastructure.Persistence.genruntimeconfig.cache
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.dll
-C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\bin\Debug\net5.0\NetCoreWebApp.Infrastructure.Shared.pdb
+C:\Users\USUARIO\source\repos\jdpo2008\NetCoreWebApp\NetCoreWebApp\NetCoreWebApp.Infrastructure.Persistence\obj\Debug\net5.0\ref\NetCoreWebApp.Infrastructure.Persistence.dll

@@ -25,7 +25,12 @@ namespace NetCoreWebApp.WebApi.Extensions
                         Name = "Jose Daniel Perez",
                         Email = "jdpo2008@gmail.com",
                         Url = new Uri("https://www.innovacionesjp.com"),
-                    }
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "MIT License",
+                        Url = new Uri("https://opensource.org/licenses/MIT"),
+                    },
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {

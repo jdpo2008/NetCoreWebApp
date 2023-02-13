@@ -17,7 +17,7 @@ namespace NetCoreWebApp.Infrastructure.Persistence.Contexts.Configurations
 
             builder.HasOne(s => s.Product)
                 .WithMany()
-                .HasForeignKey(i => i.ProductId);
+                .HasForeignKey(i => i.Product);
         }
     }
 }

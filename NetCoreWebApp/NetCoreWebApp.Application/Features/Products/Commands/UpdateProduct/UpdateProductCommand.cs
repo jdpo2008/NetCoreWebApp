@@ -57,7 +57,7 @@ namespace NetCoreWebApp.Application.Features.Products.Commands.UpdateProduct
                 product.Description = command.Description;
                 product.Price = command.Price;
                 product.Stock = command.Stock;
-                product.ImageUrl = command.ImageUrl;
+                //product.ImageUrl = command.ImageUrl;
 
                 await _ProductRepository.UpdateAsync(product);
 
